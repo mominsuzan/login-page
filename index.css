@@ -1,0 +1,74 @@
+@import url('https://fonts:googleapis.com/css?family=heebo:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+.container h1{
+    font-family: 'heebo',sans-serif;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0;
+    text-align: center;
+    display: inline-block;
+}
+.box {
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 22px 0px;
+}
+.box input {
+    width: 75%;
+    border: none;
+    outline: none;
+    color: white;
+    /* margin: 13px 0px; */
+    font-size: 20px;
+    padding: 5px 10px;
+    background: none;
+    font-family: sans-serif;
+}
+.btn {
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin: 12px 0;
+    padding: 10px 21px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid purple;
+
+}
+.btn:hover {
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin: 12px 0;
+    padding: 10px 21px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: white;
+    color: purple;
+    font-weight: bold;
+    opacity: 0.5;
+
+}
+
+.box i{
+    width: 25px;
+    text-align: center;
+    /* padding: 0px 12px; */
+}
